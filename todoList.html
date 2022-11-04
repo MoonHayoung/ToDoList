@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TodoList</title>
-    <link rel="stylesheet" href="./todoList.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList</title>
+  <script src="https://kit.fontawesome.com/359c344b44.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./todoList.css">
 </head>
 <body>
-    <script src="./todoList.js"></script>
+  <div class="container">
+    <header>
+      <div id="date" class="date">
+      </div>
+      <div id="time" class="time">
+        
+      </div>
+    </header>
+    <main>
+      <div class="todoTitle">
+        <p>What are you going to do today?</p>
+      </div>  
+      <div class="todoList">
+        <div class="todo">
+          <div class="checkBox">
+            <i class="fa-regular fa-square"></i>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="removeButton">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="todo">
+          <div class="checkBox">
+            <i class="fa-regular fa-square"></i>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="removeButton">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="addBox">
+          <!-- <i class="fa-regular fa-square-plus"></i> -->
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="icon">
+
+      </div>
+      <div class="plusButton">
+
+      </div>
+    </footer>
+  </div>
+
+  <script src="./todoList.js"></script>
 </body>
 </html>
